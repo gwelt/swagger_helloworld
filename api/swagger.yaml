@@ -17,5 +17,5 @@ paths:
           schema:
             type: "string"
             description: "returns Hello World"
-      x-swagger-router-controller: "mainControler"
+      x-swagger-router-controller: "mainController"
 definitions: {}
