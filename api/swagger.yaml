@@ -1,0 +1,21 @@
+---
+swagger: "2.0"
+info:
+  version: "0.0.1"
+  title: "Hello World!"
+host: "localhost:3000"
+paths:
+  /:
+    get:
+      operationId: "sayHello"
+      produces:
+      - "application/json"
+      parameters: []
+      responses:
+        "200":
+          description: "returns Hello World"
+          schema:
+            type: "string"
+            description: "returns Hello World"
+      x-swagger-router-controller: "mainControler"
+definitions: {}
